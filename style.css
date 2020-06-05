@@ -34,6 +34,7 @@ body {
 .container-h {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 .container {
@@ -56,6 +57,10 @@ input {
 
 button {
     margin: 5px;
+}
+
+footer {
+    margin-top: 25px;
 }
 
 

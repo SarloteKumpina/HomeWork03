@@ -1,0 +1,42 @@
+.box {
+    height: 7vh;
+    width: 140px;
+    margin: 7px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: large;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 2px 0px grey;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
+
+.green-bg {
+    background-color: rgb(100, 177, 23);
+}
+
+.orange-bg {
+    background-color: rgb(204, 124, 20);   
+}
+
+.beige-bg {
+    background-color: beige;
+}
+
+body {
+    background-color: rgb(207, 184, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-h {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -50,17 +50,17 @@ function addElements() {
         const id = "box-id-" + i;
         const classList = ["box"];
         if (i % fizzNum === 0 && i % buzzNum === 0 ) {
-            classList.push("orange-bg");
+            classList.push("fizzbuzz-bg");
             addElement(innerCont, "div", id, classList, "FizzBuzz  " + i);
         }else if (i % fizzNum === 0) {
-            classList.push("yellow-bg");
-            addElement(innerCont, "div", id, classList, "Fizz" + i);
+            classList.push("fizz-bg");
+            addElement(innerCont, "div", id, classList, "Fizz  " + i);
         }else if (i % buzzNum === 0) {
-            classList.push("green-bg");
-            addElement(innerCont, "div", id, classList, "Buzz" + i);
+            classList.push("buzz-bg");
+            addElement(innerCont, "div", id, classList, "Buzz  " + i);
         }else {
-            classList.push("beige-bg");
-            addElement(innerCont, "div", id, classList, " " + i);
+            classList.push("none-bg");
+            addElement(innerCont, "div", id, classList, + i);
         }
     }
 }

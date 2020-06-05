@@ -11,32 +11,52 @@
     box-shadow: 3px 3px 2px 0px grey;
 }
 
-.yellow-bg {
-    background-color: yellow;
+.fizz-bg {
+    background-color: rgb(134, 63, 148);   
 }
 
-.green-bg {
-    background-color: rgb(100, 177, 23);
+.buzz-bg {
+    background-color: rgb(51, 101, 180);
 }
 
-.orange-bg {
-    background-color: rgb(204, 124, 20);   
+.fizzbuzz-bg {
+    background-color: rgb(131, 127, 138);
 }
 
-.beige-bg {
-    background-color: beige;
+.none-bg {
+    background-color: rgb(218, 206, 206);
 }
 
 body {
-    background-color: rgb(207, 184, 161);
+    background-color: rgb(212, 195, 177);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container-h {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .inner-cont {
     display: flex;
     flex-wrap: wrap;
 }
 
-.container-h {
-    display: flex;
-    flex-wrap: wrap;
+.lable {
+    margin: 5px;
 }
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+
+
